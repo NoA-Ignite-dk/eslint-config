@@ -26,6 +26,9 @@ module.exports = {
 			'named': 'never',
 			'asyncArrow': 'always',
 		}],
+		'brace-style': ['error', '1tbs', {
+			"allowSingleLine": true
+		}],
 		'import/extensions': ['error', 'ignorePackages',{
 			js: 'never',
 			mjs: 'never',

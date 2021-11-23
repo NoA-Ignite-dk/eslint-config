@@ -29,39 +29,40 @@ module.exports = {
 		'@typescript-eslint',
 	],
 	rules: {
-		'brace-style': 'off',
-		'@typescript-eslint/brace-style': ['error', '1tbs'],
+		'brace-style': ['off'],
+		'@typescript-eslint/brace-style': ['error', '1tbs', {
+			"allowSingleLine": true
+		}],
 
-		indent: 'off',
+		indent: ['off'],
 		'@typescript-eslint/indent': ['error', 'tab'],
 
-		'comma-dangle': 'off',
+		'comma-dangle': ['off'],
 		'@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
 
-		quotes: 'off',
-		'@typescript-eslint/quotes': ['error', 'single', { allowTemplateLiterals: true }],
+		quotes: ['off'],
+		'@typescript-eslint/quotes': ['error', 'single', {
+			allowTemplateLiterals: true
+		}],
 
-		semi: 'off',
+		semi: ['off'],
 		'@typescript-eslint/semi': ['error', 'always'],
 
 		'no-unused-vars': ['off'],
-		'@typescript-eslint/no-unused-vars': [
-			'error',
-			{
-				vars: 'all',
-				args: 'after-used',
-				ignoreRestSiblings: true,
-			},
-		],
+		'@typescript-eslint/no-unused-vars': ['error',{
+			vars: 'all',
+			args: 'after-used',
+			ignoreRestSiblings: true,
+		}],
 
-		'no-use-before-define': 'off',
+		'no-use-before-define': ['off'],
 		'@typescript-eslint/no-use-before-define': ['error', {
 			functions: false,
 			classes: true,
 			variables: true,
 		}],
 
-		'object-curly-spacing': 'off',
+		'object-curly-spacing': ['off'],
 		'@typescript-eslint/object-curly-spacing': ['error', 'always'],
 
 		'@typescript-eslint/explicit-function-return-type': ['off'],
