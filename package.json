@@ -1,0 +1,32 @@
+{
+  "name": "@jdpnielsen/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint config for JS projects",
+  "scripts": {
+    "lint": "eslint .",
+    "upgrade-interactive": "npm-check -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/jdpnielsen/eslint-config.git"
+  },
+  "main": "index.js",
+  "author": "Joshua Nielsen <jdpnielsen@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "npm-check": "^5.9.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
