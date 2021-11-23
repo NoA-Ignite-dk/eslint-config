@@ -37,7 +37,6 @@ module.exports = {
 			tsx: 'never',
 		}],
 		'import/prefer-default-export': ['error'],
-		'import/no-named-as-default': ['error'],
 		'import/order': ['error', {
 			'newlines-between': 'always',
 			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
