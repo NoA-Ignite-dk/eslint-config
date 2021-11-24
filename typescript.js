@@ -10,6 +10,7 @@ module.exports = {
 	extends: [
 		'plugin:@typescript-eslint/recommended',
 		'plugin:import/typescript',
+		'airbnb-typescript/base',
 		'./index.js',
 	],
 	settings: {
@@ -29,27 +30,15 @@ module.exports = {
 		'@typescript-eslint',
 	],
 	rules: {
-		'brace-style': ['off'],
-		'@typescript-eslint/brace-style': ['error', '1tbs', {
-			"allowSingleLine": true
-		}],
-
 		indent: ['off'],
 		'@typescript-eslint/indent': ['error', 'tab'],
 
-		'comma-dangle': ['off'],
-		'@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
-
-		quotes: ['off'],
-		'@typescript-eslint/quotes': ['error', 'single', {
-			allowTemplateLiterals: true
-		}],
-
 		semi: ['off'],
 		'@typescript-eslint/semi': ['error', 'always'],
+		'@typescript-eslint/member-delimiter-style': ['error'],
 
 		'no-unused-vars': ['off'],
-		'@typescript-eslint/no-unused-vars': ['error',{
+		'@typescript-eslint/no-unused-vars': ['error', {
 			vars: 'all',
 			args: 'after-used',
 			ignoreRestSiblings: true,

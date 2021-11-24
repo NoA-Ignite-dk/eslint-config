@@ -7,7 +7,7 @@ const object = {
 };
 
 function test() {
-	return object.first;
+	return [object.first, object.second];
 }
 
 function stringBuilder(input) {

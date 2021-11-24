@@ -12,7 +12,7 @@ const object: ObjectType = {
 	third: 3,
 };
 
-export function test(){
+export function test() {
 	return object.first;
 }
 

@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'../../react.js',
+		'../../typescript.js',
 	],
 	parserOptions: {
 		project: require.resolve('./tsconfig.json'),
