@@ -1,5 +1,7 @@
 # @noa-ignite-dk/eslint-config
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 Provides extensible base eslint configuration. There are 3 variants;
 
 - [Javascript](#NoA-Ignite-dkeslint-config-1)
