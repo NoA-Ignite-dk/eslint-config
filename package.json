@@ -1,12 +1,12 @@
 {
   "name": "@noa-ignite-dk/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint config for JS projects",
   "scripts": {
     "lint": "eslint .",
     "upgrade-interactive": "npm-check -u",
     "version": "standard-version",
-		"prepare-release": "run-s lint version"
+    "prepare-release": "run-s lint version"
   },
   "repository": {
     "type": "git",
