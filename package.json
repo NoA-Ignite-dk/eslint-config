@@ -1,12 +1,12 @@
 {
   "name": "@noaignite-dk/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for JS projects",
   "scripts": {
     "lint": "eslint .",
     "upgrade-interactive": "npm-check -u",
     "version": "standard-version",
-		"prepare-release": "run-s lint version"
+    "prepare-release": "run-s lint version"
   },
   "repository": {
     "type": "git",
