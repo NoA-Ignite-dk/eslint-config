@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/noaignite/eslint-config.git"
+    "url": "ssh://git@github.com/NoA-Ignite-dk/eslint-config.git"
   },
   "main": "index.js",
   "author": "Joshua Nielsen <jdpnielsen@gmail.com>",
