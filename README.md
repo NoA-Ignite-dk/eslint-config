@@ -1,34 +1,20 @@
-# @jdpnielsen/eslint-config
+# @noa-ignite-dk/eslint-config
 
 Provides extensible base eslint configuration. There are 3 variants;
 
-- [Javascript](#jdpnielseneslint-config-1)
-- [Typescript](#jdpnielseneslint-configtypescript)
-- [React + Typescript](#jdpnielseneslint-configreact)
+- [Javascript](#NoA-Ignite-dkeslint-config-1)
+- [Typescript](#NoA-Ignite-dkeslint-configtypescript)
+- [React + Typescript](#NoA-Ignite-dkeslint-configreact)
 
 ## Installation
 
-`npm install @jdpnielsen/eslint-config`
+`npm install @noa-ignite-dk/eslint-config`
 
 or
 
-`yarn add @jdpnielsen/eslint-config`
+`yarn add @noa-ignite-dk/eslint-config`
 
-### @jdpnielsen/eslint-config
-
-Use this configuration alongside the base configuration if your project uses Typescript.
-
-#### Usage
-
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
-
-```
-{
-  "extends": ["@jdpnielsen/eslint-config"]
-}
-```
-
-### @jdpnielsen/eslint-config/typescript
+### @noa-ignite-dk/eslint-config
 
 Use this configuration alongside the base configuration if your project uses Typescript.
 
@@ -38,11 +24,25 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 
 ```
 {
-  "extends": ["@jdpnielsen/eslint-config/typescript"]
+  "extends": ["@noa-ignite-dk/eslint-config"]
 }
 ```
 
-### @jdpnielsen/eslint-config/react
+### @noa-ignite-dk/eslint-config/typescript
+
+Use this configuration alongside the base configuration if your project uses Typescript.
+
+#### Usage
+
+In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+
+```
+{
+  "extends": ["@noa-ignite-dk/eslint-config/typescript"]
+}
+```
+
+### @noa-ignite-dk/eslint-config/react
 
 Use this configuration alongside the base configuration if your project uses React.
 
@@ -52,7 +52,7 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 
 ```
 {
-  "extends": ["@jdpnielsen/eslint-config/react"]
+  "extends": ["@noa-ignite-dk/eslint-config/react"]
 }
 ```
 
