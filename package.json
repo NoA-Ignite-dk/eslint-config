@@ -1,10 +1,12 @@
 {
   "name": "@noa-ignite-dk/eslint-config",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "ESLint config for JS projects",
   "scripts": {
     "lint": "eslint .",
-    "upgrade-interactive": "npm-check -u"
+    "upgrade-interactive": "npm-check -u",
+    "version": "standard-version",
+		"prepare-release": "run-s lint version"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,12 @@
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.4.1",
-    "npm-check": "^5.9.2"
+    "npm-check": "^5.9.2",
+    "npm-run-all": "^4.1.5",
+    "standard-version": "^9.3.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
