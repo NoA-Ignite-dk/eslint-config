@@ -1,4 +1,4 @@
-# @noa-ignite-dk/eslint-config
+# @noaignite-dk/eslint-config
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -10,27 +10,13 @@ Provides extensible base eslint configuration. There are 3 variants;
 
 ## Installation
 
-`npm install @noa-ignite-dk/eslint-config`
+`npm install @noaignite-dk/eslint-config`
 
 or
 
-`yarn add @noa-ignite-dk/eslint-config`
+`yarn add @noaignite-dk/eslint-config`
 
-### @noa-ignite-dk/eslint-config
-
-Use this configuration alongside the base configuration if your project uses Typescript.
-
-#### Usage
-
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
-
-```
-{
-  "extends": ["@noa-ignite-dk/eslint-config"]
-}
-```
-
-### @noa-ignite-dk/eslint-config/typescript
+### @noaignite-dk/eslint-config
 
 Use this configuration alongside the base configuration if your project uses Typescript.
 
@@ -40,11 +26,25 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 
 ```
 {
-  "extends": ["@noa-ignite-dk/eslint-config/typescript"]
+  "extends": ["@noaignite-dk/eslint-config"]
 }
 ```
 
-### @noa-ignite-dk/eslint-config/react
+### @noaignite-dk/eslint-config/typescript
+
+Use this configuration alongside the base configuration if your project uses Typescript.
+
+#### Usage
+
+In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+
+```
+{
+  "extends": ["@noaignite-dk/eslint-config/typescript"]
+}
+```
+
+### @noaignite-dk/eslint-config/react
 
 Use this configuration alongside the base configuration if your project uses React.
 
@@ -54,7 +54,7 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 
 ```
 {
-  "extends": ["@noa-ignite-dk/eslint-config/react"]
+  "extends": ["@noaignite-dk/eslint-config/react"]
 }
 ```
 

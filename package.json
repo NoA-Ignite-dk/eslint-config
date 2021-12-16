@@ -1,5 +1,5 @@
 {
-  "name": "@noa-ignite-dk/eslint-config",
+  "name": "@noaignite-dk/eslint-config",
   "version": "1.0.0",
   "description": "ESLint config for JS projects",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/noa-ignite-dk/eslint-config.git"
+    "url": "ssh://git@github.com/noaignite/eslint-config.git"
   },
   "main": "index.js",
   "author": "Joshua Nielsen <jdpnielsen@gmail.com>",
