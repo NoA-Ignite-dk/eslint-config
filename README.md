@@ -4,9 +4,9 @@
 
 Provides extensible base eslint configuration. There are 3 variants;
 
-- [Javascript](#NoA-Ignite-dkeslint-config-1)
-- [Typescript](#NoA-Ignite-dkeslint-configtypescript)
-- [React + Typescript](#NoA-Ignite-dkeslint-configreact)
+- [JavaScript](#NoA-Ignite-dkeslint-config-1)
+- [TypeScript](#NoA-Ignite-dkeslint-configtypescript)
+- [React + TypeScript](#NoA-Ignite-dkeslint-configreact)
 
 ## Installation
 
@@ -18,7 +18,7 @@ or
 
 ### @noaignite-dk/eslint-config
 
-Use this configuration alongside the base configuration if your project uses Typescript.
+Use this configuration alongside the base configuration if your project uses JavaScript.
 
 #### Usage
 
@@ -32,7 +32,7 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 
 ### @noaignite-dk/eslint-config/typescript
 
-Use this configuration alongside the base configuration if your project uses Typescript.
+Use this configuration alongside the base configuration if your project uses TypeScript.
 
 #### Usage
 
