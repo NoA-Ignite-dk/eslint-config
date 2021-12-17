@@ -18,7 +18,7 @@ or
 
 ### @noaignite-dk/eslint-config
 
-Use this configuration alongside the base configuration if your project uses Typescript.
+Use this configuration alongside the base configuration if your project uses Javascript.
 
 #### Usage
 
