@@ -10,11 +10,11 @@ Provides extensible base eslint configuration. There are 3 variants;
 
 ## Installation
 
-`npm install @noaignite-dk/eslint-config`
+`npm install @noaignite-dk/eslint-config --save-dev`
 
 or
 
-`yarn add @noaignite-dk/eslint-config`
+`yarn add @noaignite-dk/eslint-config --dev`
 
 ### @noaignite-dk/eslint-config
 
