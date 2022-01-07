@@ -47,7 +47,7 @@ module.exports = {
 		'import/order': ['error', {
 			'newlines-between': 'always',
 			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
-			alphabetize: { order: 'desc' },
+			alphabetize: { order: 'asc' },
 		}],
 	},
 };
