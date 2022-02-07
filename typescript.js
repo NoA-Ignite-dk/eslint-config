@@ -58,5 +58,6 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': ['warn'],
 		'@typescript-eslint/ban-ts-comment': ['error'],
 		'@typescript-eslint/no-shadow': ['error'],
+		'no-shadow': ['off'],
 	},
 };

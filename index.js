@@ -48,7 +48,6 @@ module.exports = {
 			'newlines-between': 'always',
 			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
 			alphabetize: { order: 'asc' },
-		}],
-		'no-shadow': ['off'],
+		}],		
 	},
 };
