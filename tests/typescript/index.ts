@@ -29,3 +29,17 @@ function stringBuilder(input: string) {
 if (booleanValue) {
 	stringBuilder('test');
 }
+
+export class MyClass {
+	myFirstProperty = 'string';
+	mySecondProperty = 'string';
+
+	public myFirstMethod() {
+		return this.myFirstMethod;
+	}
+
+	public mySecondMethod() { return this.myFirstMethod; }
+	public myThirdMethod() {
+		return this.myFirstMethod;
+	}
+}

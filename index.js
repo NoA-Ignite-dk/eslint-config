@@ -49,5 +49,6 @@ module.exports = {
 			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
 			alphabetize: { order: 'asc' },
 		}],
+		'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 	},
 };

@@ -59,5 +59,8 @@ module.exports = {
 		'@typescript-eslint/ban-ts-comment': ['error'],
 		'@typescript-eslint/no-shadow': ['error'],
 		'no-shadow': ['off'],
+
+		'lines-between-class-members': ['off'],
+		'@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 	},
 };
