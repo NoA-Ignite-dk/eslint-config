@@ -43,7 +43,7 @@ module.exports = {
 		],
 		'import/no-named-as-default': ['off'],
 		'import/no-extraneous-dependencies': ['off'],
-		'import/prefer-default-export': ['error'],
+		'import/prefer-default-export': ['off'],
 		'import/order': ['error', {
 			'newlines-between': 'always',
 			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
