@@ -1,0 +1,76 @@
+module.exports = {
+	disableEmoji: true,
+	list: ['rule', 'feat', 'fix', 'test', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
+	maxMessageLength: 64,
+	minMessageLength: 3,
+	questions: ['type', 'scope', 'subject', 'body', 'issues'],
+	scopes: ['', 'js', 'react', 'ts', 'meta'],
+	types: {
+		chore: {
+			description: 'Build process or auxiliary tool changes',
+			hidden: false,
+			section: 'Build System',
+			value: 'chore',
+		},
+		ci: {
+			description: 'CI related changes',
+			hidden: true,
+			section: 'Build System',
+			value: 'ci',
+		},
+		docs: {
+			description: 'Documentation only changes',
+			hidden: false,
+			section: 'Documentation',
+			value: 'docs',
+		},
+		feat: {
+			description: 'A new feature or change of functionality',
+			hidden: false,
+			section: 'Features',
+			value: 'feat',
+		},
+		fix: {
+			description: 'A bug fix',
+			hidden: false,
+			section: 'Fixes',
+			value: 'fix',
+		},
+		perf: {
+			description: 'A code change that improves performance',
+			hidden: false,
+			section: 'Improvements',
+			value: 'perf',
+		},
+		refactor: {
+			description: 'A code change that neither fixes a bug or adds a feature',
+			hidden: false,
+			section: 'Improvements',
+			value: 'refactor',
+		},
+		release: {
+			description: 'Create a release commit',
+			hidden: true,
+			section: 'Build System',
+			value: 'release',
+		},
+		rule: {
+			description: 'Changed an eslint rule',
+			hidden: false,
+			section: 'Rules',
+			value: 'rule',
+		},
+		style: {
+			description: 'Markup, white-space, formatting, missing semi-colons...',
+			hidden: true,
+			section: 'Improvements',
+			value: 'style',
+		},
+		test: {
+			description: 'Adding missing tests',
+			hidden: false,
+			section: 'Tests',
+			value: 'test',
+		},
+	},
+};
