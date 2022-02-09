@@ -8,6 +8,7 @@ module.exports = {
 	},
 	plugins: ['import'],
 	rules: {
+		'arrow-body-style': ['off'],
 		'import/extensions': ['error', 'ignorePackages', {
 			js: 'never',
 			jsx: 'never',
