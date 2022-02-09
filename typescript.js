@@ -37,6 +37,7 @@ module.exports = {
 		'no-unused-vars': ['off'],
 		'no-use-before-define': ['off'],
 		'object-curly-spacing': ['off'],
+		quotes: ['off'],
 		semi: ['off'],
 	},
 	settings: {
