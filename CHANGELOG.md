@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.0.2...v1.0.3) (2022-02-09)
+
+
+### Documentation
+
+* updated README.md ([3124cf4](https://github.com/NoA-Ignite-dk/eslint-config/commit/3124cf44a825bec9d574de39d06729d3fe4ebda5))
+
+
+### Fixes
+
+* import order asc ([3863447](https://github.com/NoA-Ignite-dk/eslint-config/commit/3863447a25ab34215e9fc6af0b3e50a2a03cc552))
+
+
+### Build System
+
+* added commitlint with husky pre-commit hook ([04e2774](https://github.com/NoA-Ignite-dk/eslint-config/commit/04e2774fee873b1d8d8635e28db4d7a99239e6c9))
+
+
+### Rules
+
+* **js:** disable arrow-body-style rule ([fbc8e64](https://github.com/NoA-Ignite-dk/eslint-config/commit/fbc8e64bc5340923da987ae451d61af0226774d1))
+
 ### [1.0.2](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.0.1...v1.0.2) (2021-12-16)
 
 ### [1.0.1](https://github.com/noaignite/eslint-config/compare/v1.0.0...v1.0.1) (2021-12-16)
