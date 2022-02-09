@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.1.0...v1.1.1) (2022-02-09)
+
+
+### Build System
+
+* update dependencies ([aff6af3](https://github.com/NoA-Ignite-dk/eslint-config/commit/aff6af3b115fa124f21ac6aacb4cb97ae972afec))
+
+
+### Fixes
+
+* **ts:** base quote rule should be disabled for typescript ([1aa3fcc](https://github.com/NoA-Ignite-dk/eslint-config/commit/1aa3fcceb11324b1b5b6decc9b8c0996291d9cfd))
+
 ## [1.1.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.0.2...v1.1.0) (2022-02-09)
 
 
