@@ -2,5 +2,8 @@
   "extends": "./index.js",
 	"env": {
 		"node": true
+	},
+	"rules": {
+		"sort-keys": ["error", "asc"]
 	}
 }

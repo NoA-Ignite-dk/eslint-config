@@ -1,66 +1,52 @@
 require('./patch');
 
 module.exports = {
+	extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript', 'airbnb-typescript/base', './index.js'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true,
 		},
 	},
-	extends: [
-		'plugin:@typescript-eslint/recommended',
-		'plugin:import/typescript',
-		'airbnb-typescript/base',
-		'./index.js',
-	],
+	plugins: ['@typescript-eslint'],
+	rules: {
+		'@typescript-eslint/ban-ts-comment': ['error'],
+		'@typescript-eslint/explicit-function-return-type': ['off'],
+		'@typescript-eslint/indent': ['error', 'tab'],
+		'@typescript-eslint/lines-between-class-members': ['error', 'always', {
+			exceptAfterSingleLine: true,
+		}],
+		'@typescript-eslint/member-delimiter-style': ['error'],
+		'@typescript-eslint/no-explicit-any': ['warn'],
+		'@typescript-eslint/no-shadow': ['error'],
+		'@typescript-eslint/no-unused-vars': ['error', {
+			args: 'after-used',
+			ignoreRestSiblings: true,
+			vars: 'all',
+		}],
+		'@typescript-eslint/no-use-before-define': ['error', {
+			classes: true,
+			functions: false,
+			variables: true,
+		}],
+		'@typescript-eslint/object-curly-spacing': ['error', 'always'],
+		'@typescript-eslint/semi': ['error', 'always'],
+		indent: ['off'],
+		'lines-between-class-members': ['off'],
+		'no-shadow': ['off'],
+		'no-unused-vars': ['off'],
+		'no-use-before-define': ['off'],
+		'object-curly-spacing': ['off'],
+		semi: ['off'],
+	},
 	settings: {
 		'import/parsers': {
-			'@typescript-eslint/parser': [
-				'.ts',
-				'.tsx',
-			],
+			'@typescript-eslint/parser': ['.ts', '.tsx'],
 		},
 		'import/resolver': {
 			node: {
 				extensions: ['.js', '.jsx', '.ts', '.tsx'],
 			},
 		},
-	},
-	plugins: [
-		'@typescript-eslint',
-	],
-	rules: {
-		indent: ['off'],
-		'@typescript-eslint/indent': ['error', 'tab'],
-
-		semi: ['off'],
-		'@typescript-eslint/semi': ['error', 'always'],
-		'@typescript-eslint/member-delimiter-style': ['error'],
-
-		'no-unused-vars': ['off'],
-		'@typescript-eslint/no-unused-vars': ['error', {
-			vars: 'all',
-			args: 'after-used',
-			ignoreRestSiblings: true,
-		}],
-
-		'no-use-before-define': ['off'],
-		'@typescript-eslint/no-use-before-define': ['error', {
-			functions: false,
-			classes: true,
-			variables: true,
-		}],
-
-		'object-curly-spacing': ['off'],
-		'@typescript-eslint/object-curly-spacing': ['error', 'always'],
-
-		'@typescript-eslint/explicit-function-return-type': ['off'],
-		'@typescript-eslint/no-explicit-any': ['warn'],
-		'@typescript-eslint/ban-ts-comment': ['error'],
-		'@typescript-eslint/no-shadow': ['error'],
-		'no-shadow': ['off'],
-
-		'lines-between-class-members': ['off'],
-		'@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 	},
 };

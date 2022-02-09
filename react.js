@@ -3,28 +3,19 @@ require('./patch');
 module.exports = {
 	env: {
 		browser: true,
-		node: true,
 		jest: true,
+		node: true,
 	},
-	plugins: [
-		'react',
-		'react-hooks',
-	],
-	extends: [
-		'./index.js',
-		'./typescript.js',
-	],
+	extends: ['./index.js', './typescript.js'],
+	plugins: ['react', 'react-hooks'],
 	rules: {
-		'react/jsx-filename-extension': [
-			'error',
-			{
-				extensions: ['.jsx', '.tsx'],
-			},
-		],
+		'react-hooks/exhaustive-deps': ['warn'],
+		'react-hooks/rules-of-hooks': ['error'],
+		'react/jsx-filename-extension': ['error', {
+			extensions: ['.jsx', '.tsx'],
+		}],
 		'react/jsx-props-no-spreading': ['off'],
 		'react/prop-types': ['off'],
 		'react/require-default-props': ['off'],
-		'react-hooks/rules-of-hooks': ['error'],
-		'react-hooks/exhaustive-deps': ['warn'],
 	},
 };
