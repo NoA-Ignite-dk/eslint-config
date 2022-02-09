@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.1.1...v1.2.0) (2022-02-09)
+
+
+### Rules
+
+* **js:** disable consistent-return rule ([0847763](https://github.com/NoA-Ignite-dk/eslint-config/commit/08477634c3ec8a4e8a4edb109a2d02f524771a83)), closes [/github.com/NoA-Ignite-dk/eslint-config/discussions/7#discussioncomment-2125158](https://github.com/NoA-Ignite-dk//github.com/NoA-Ignite-dk/eslint-config/discussions/7/issues/discussioncomment-2125158)
+
 ### [1.1.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.1.0...v1.1.1) (2022-02-09)
 
 
