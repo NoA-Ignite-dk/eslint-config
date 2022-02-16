@@ -2,12 +2,12 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-Provides extensible base eslint configuration. There are 3 variants;
+Provides extensible base eslint configuration. There are 4 variants;
 
 - [JavaScript](#NoA-Ignite-dkeslint-config-1)
 - [TypeScript](#NoA-Ignite-dkeslint-configtypescript)
 - [React + TypeScript](#NoA-Ignite-dkeslint-configreact)
-- [Nextjs](#NoA-Ignite-dkeslint-confignext)
+- [Next.js](#NoA-Ignite-dkeslint-confignext)
 
 ## Installation
 
@@ -19,7 +19,7 @@ or
 
 ### @noaignite-dk/eslint-config
 
-Use this configuration alongside the base configuration if your project uses JavaScript.
+Use this configuration if your project uses JavaScript.
 
 #### Usage
 
@@ -33,43 +33,126 @@ module.exports = {
 
 ### @noaignite-dk/eslint-config/typescript
 
-Use this configuration alongside the base configuration if your project uses TypeScript.
+Use this configuration if your project uses TypeScript.
 
 #### Usage
 
-In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
+Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the following contents:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/.*.js",
+	],
+	"exclude": ["node_modules"]
+}
+```
+
+Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
 module.exports = {
-  extends: ['@noaignite-dk/eslint-config/typescript'],
+	extends: ['@noaignite-dk/eslint-config/typescript'],
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
 };
 ```
 
 ### @noaignite-dk/eslint-config/react
 
-Use this configuration alongside the base configuration if your project uses React.
+Use this configuration if your project uses React + Typescript.
 
 #### Usage
 
-In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
+Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the following contents:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/.*.js",
+	],
+	"exclude": ["node_modules"]
+}
+```
+
+Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
 module.exports = {
-  extends: ['@noaignite-dk/eslint-config/react'],
+	extends: ['@noaignite-dk/eslint-config/react'],
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
 };
 ```
 
 ### @noaignite-dk/eslint-config/next
 
-Use this configuration alongside the base configuration if your project uses Typescript + Next.js.
+Use this configuration if your project uses Next.js + Typescript.
 
 #### Usage
 
-In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
+Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the following contents:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/.*.js",
+	],
+	"exclude": ["node_modules"]
+}
+```
+
+Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
 module.exports = {
-  extends: ['@noaignite-dk/eslint-config/next'],
+	extends: ['@noaignite-dk/eslint-config/next'],
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
+};
+```
+
+If Next.js isn't installed in your root directory (such as a monorepo) [rootDir](https://nextjs.org/docs/basic-features/eslint#rootdir) must be configured in `.eslintrc.js`:
+
+```js
+module.exports = {
+	extends: ['@noaignite-dk/eslint-config/next'],
+	settings: {
+		next: {
+			rootDir: "packages/my-app/"
+		}
+	},
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
 };
 ```
 
