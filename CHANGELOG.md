@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0-beta.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2022-02-16)
+
+
+### Fixes
+
+* **ts:** add plugin for resolving tsconfig path alias ([dee36e9](https://github.com/NoA-Ignite-dk/eslint-config/commit/dee36e9f9fffbb0b1d6663c9c8b1489a1b52288a))
+
+
+### Documentation
+
+* **next:** resolve path alias in next.js monorepo example ([1983f4d](https://github.com/NoA-Ignite-dk/eslint-config/commit/1983f4d77e8ecdd0f5abda61eb7843d51c3a6466))
+* **ts:** add common errors section ([0c09709](https://github.com/NoA-Ignite-dk/eslint-config/commit/0c09709e241b70621479748391ccacf4f47cfc25))
+
+
+### Rules
+
+* **js:** add additional groups to import/order rule ([de0001b](https://github.com/NoA-Ignite-dk/eslint-config/commit/de0001bd87343613ebe6f5b996406eedc48ff751))
+
 ## [1.3.0-beta.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.2.0...v1.3.0-beta.0) (2022-02-16)
 
 
