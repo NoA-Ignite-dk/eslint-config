@@ -59,6 +59,7 @@ module.exports = {
 		'no-tabs': ['error', {
 			allowIndentationTabs: true,
 		}],
+		'no-underscore-dangle': ['off'],
 		'no-unused-vars': ['warn'],
 	},
 };
