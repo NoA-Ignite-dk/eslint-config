@@ -23,12 +23,12 @@ Use this configuration alongside the base configuration if your project uses Jav
 
 #### Usage
 
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
-```
-{
-  "extends": ["@noaignite-dk/eslint-config"]
-}
+```js
+module.exports = {
+	extends: ['@noaignite-dk/eslint-config'],
+};
 ```
 
 ### @noaignite-dk/eslint-config/typescript
@@ -37,12 +37,12 @@ Use this configuration alongside the base configuration if your project uses Typ
 
 #### Usage
 
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
-```
-{
-  "extends": ["@noaignite-dk/eslint-config/typescript"]
-}
+```js
+module.exports = {
+  extends: ['@noaignite-dk/eslint-config/typescript'],
+};
 ```
 
 ### @noaignite-dk/eslint-config/react
@@ -51,12 +51,12 @@ Use this configuration alongside the base configuration if your project uses Rea
 
 #### Usage
 
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
-```
-{
-  "extends": ["@noaignite-dk/eslint-config/react"]
-}
+```js
+module.exports = {
+  extends: ['@noaignite-dk/eslint-config/react'],
+};
 ```
 
 ### @noaignite-dk/eslint-config/next
@@ -65,12 +65,12 @@ Use this configuration alongside the base configuration if your project uses Typ
 
 #### Usage
 
-In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
-```
-{
-  "extends": ["@noaignite-dk/eslint-config/next"]
-}
+```js
+module.exports = {
+  extends: ['@noaignite-dk/eslint-config/next'],
+};
 ```
 
 ## Development
