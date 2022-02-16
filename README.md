@@ -7,6 +7,7 @@ Provides extensible base eslint configuration. There are 3 variants;
 - [JavaScript](#NoA-Ignite-dkeslint-config-1)
 - [TypeScript](#NoA-Ignite-dkeslint-configtypescript)
 - [React + TypeScript](#NoA-Ignite-dkeslint-configreact)
+- [Nextjs](#NoA-Ignite-dkeslint-confignext)
 
 ## Installation
 
@@ -55,6 +56,20 @@ In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), a
 ```
 {
   "extends": ["@noaignite-dk/eslint-config/react"]
+}
+```
+
+### @noaignite-dk/eslint-config/next
+
+Use this configuration alongside the base configuration if your project uses Typescript + Next.js.
+
+#### Usage
+
+In your project's [.eslintrc](https://eslint.org/docs/user-guide/configuring), add the following:
+
+```
+{
+  "extends": ["@noaignite-dk/eslint-config/next"]
 }
 ```
 
