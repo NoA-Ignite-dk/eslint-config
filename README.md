@@ -166,6 +166,43 @@ module.exports = {
 };
 ```
 
+## Common errors
+
+### 1. Unable to resolve path to module '@alias/file'. eslint(import/no-unresolved)
+
+This error typically occurs when `eslint-import-resolver-typescript` cannot resolve the correct `tsconfig.json` or a `baseUrl` is missing.
+
+**Resolutions**:
+1. Make sure a [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl) is set:
+
+(`tsconfig.eslint.json`)
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
+```
+
+2. Try explicitly passing the tsconfig to the resolver:
+
+(`.eslintrc.js`)
+```js
+module.exports = {
+	// [...]
+	settings: {
+		'import/resolver': {
+			typescript: {
+				project: require.resolve('./tsconfig.eslint.json'),
+			},
+		},
+	},
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
+};
+```
+
 ## Development
 
 Install all necessary development dependencies by running `npm install --dev`
