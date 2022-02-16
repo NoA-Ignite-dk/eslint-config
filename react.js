@@ -7,7 +7,13 @@ module.exports = {
 		jest: true,
 		node: true,
 	},
-	extends: ['./index.js', './typescript.js'],
+	extends: ['./index.js'],
+	overrides: [
+		{
+			extends: ['./typescript.js'],
+			files: ['*.ts', '*.tsx'],
+		},
+	],
 	plugins: ['react', 'react-hooks'],
 	rules: {
 		'react-hooks/exhaustive-deps': ['warn'],
