@@ -14,6 +14,10 @@ module.exports = {
 		'react/jsx-filename-extension': ['error', {
 			extensions: ['.jsx', '.tsx'],
 		}],
+		'react/jsx-indent': ['error', 'tab', {
+			checkAttributes: true,
+			indentLogicalExpressions: true,
+		}],
 		'react/jsx-props-no-spreading': ['off'],
 		'react/prop-types': ['off'],
 		'react/require-default-props': ['off'],
