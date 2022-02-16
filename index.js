@@ -23,7 +23,16 @@ module.exports = {
 			alphabetize: {
 				order: 'asc',
 			},
-			groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+			groups: [
+				'builtin',
+				'external',
+				'type',
+				'internal',
+				'parent',
+				'sibling',
+				'index',
+				'object',
+			],
 			'newlines-between': 'always',
 		}],
 		'import/prefer-default-export': ['off'],
