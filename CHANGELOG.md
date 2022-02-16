@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0-beta.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.2.0...v1.3.0-beta.0) (2022-02-16)
+
+
+### Features
+
+* **next:** implement eslint config for Next.js ([e5ddb7b](https://github.com/NoA-Ignite-dk/eslint-config/commit/e5ddb7b57479b288a75b1ac693e281b5d0646609)), closes [#9](https://github.com/NoA-Ignite-dk/eslint-config/issues/9)
+* use eslint override to leave js rules untouched ([edeccaf](https://github.com/NoA-Ignite-dk/eslint-config/commit/edeccaf48831879caf2bace5ffd8ba83c0df4b32))
+
+
+### Rules
+
+* **react:** configure react/jsx-indent to use tabs ([2e1f390](https://github.com/NoA-Ignite-dk/eslint-config/commit/2e1f3905fe3ac8aeebbc472d6230ff1c9f4faa75))
+* **react:** configure react/jsx-indent-props to use tabs ([a4984e1](https://github.com/NoA-Ignite-dk/eslint-config/commit/a4984e135166895b5aa1b5399eb31e02854186c7))
+
+
+### Documentation
+
+* add documentation of tsconfig.eslint.json usage ([0208fc3](https://github.com/NoA-Ignite-dk/eslint-config/commit/0208fc3880d9a89d207c050afba6c491bd001c16))
+* use .eslintrc.js in readme instead of .eslintrc ([960392f](https://github.com/NoA-Ignite-dk/eslint-config/commit/960392faef47681aaf975d3ac59fb3b30f953a18))
+* use type import for eslint configs ([a89acb0](https://github.com/NoA-Ignite-dk/eslint-config/commit/a89acb0507403b0b3cc8c1dd4f6bd0587563e028))
+
+
+### Build System
+
+* remove 'meta' scope ([6b8575f](https://github.com/NoA-Ignite-dk/eslint-config/commit/6b8575ffb5ec03d23b451a9c01b09d51c9baedf8))
+
 ## [1.2.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.1.1...v1.2.0) (2022-02-09)
 
 
