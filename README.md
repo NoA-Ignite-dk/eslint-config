@@ -26,6 +26,7 @@ Use this configuration if your project uses JavaScript.
 In your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['@noaignite-dk/eslint-config'],
 };
@@ -59,6 +60,7 @@ Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the follow
 Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['@noaignite-dk/eslint-config/typescript'],
 	parserOptions: {
@@ -95,6 +97,7 @@ Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the follow
 Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['@noaignite-dk/eslint-config/react'],
 	parserOptions: {
@@ -132,6 +135,7 @@ Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the follow
 Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
 
 ```js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['@noaignite-dk/eslint-config/next'],
 	parserOptions: {
@@ -143,6 +147,7 @@ module.exports = {
 If Next.js isn't installed in your root directory (such as a monorepo) [rootDir](https://nextjs.org/docs/basic-features/eslint#rootdir) must be configured in `.eslintrc.js`:
 
 ```js
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['@noaignite-dk/eslint-config/next'],
 	settings: {

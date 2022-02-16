@@ -1,5 +1,6 @@
 require('./patch');
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript', 'airbnb-typescript/base', './index.js'],
 	parser: '@typescript-eslint/parser',
