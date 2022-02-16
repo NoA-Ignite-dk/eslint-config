@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0-beta.2](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.1...v1.3.0-beta.2) (2022-02-16)
+
+
+### Rules
+
+* **js:** disable no-underscore-dangle rule ([847184a](https://github.com/NoA-Ignite-dk/eslint-config/commit/847184af90b53b33b0ec811ed4765cc49991e2e7))
+
 ## [1.3.0-beta.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2022-02-16)
 
 
