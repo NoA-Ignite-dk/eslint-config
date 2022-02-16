@@ -8,6 +8,11 @@ module.exports = {
 		next: {
 			rootDir: 'tests/next/',
 		},
+		'import/resolver': {
+			typescript: {
+				project: require.resolve('./tsconfig.eslint.json'),
+			},
+		},
 	},
 	parserOptions: {
 		project: require.resolve('./tsconfig.eslint.json'),

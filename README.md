@@ -153,7 +153,12 @@ module.exports = {
 	settings: {
 		next: {
 			rootDir: "packages/my-app/"
-		}
+		},
+		'import/resolver': {
+			typescript: {
+				project: require.resolve('./tsconfig.eslint.json'),
+			},
+		},
 	},
 	parserOptions: {
 		project: require.resolve('./tsconfig.eslint.json'),
