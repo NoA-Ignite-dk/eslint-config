@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.2...v1.3.0) (2022-03-01)
+
+
+### Documentation
+
+* fix link anchors ([0b3479d](https://github.com/NoA-Ignite-dk/eslint-config/commit/0b3479d5d811ff71d85fbf9d0984b9f087714874))
+
 ## [1.3.0-beta.2](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.1...v1.3.0-beta.2) (2022-02-16)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@noaignite-dk/eslint-config",
-  "version": "1.3.0-beta.2",
+  "version": "1.3.0",
   "description": "ESLint config for JS projects",
   "scripts": {
     "lint": "eslint .",
