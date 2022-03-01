@@ -4,10 +4,10 @@
 
 Provides extensible base eslint configuration. There are 4 variants;
 
-- [JavaScript](#NoA-Ignite-dkeslint-config-1)
-- [TypeScript](#NoA-Ignite-dkeslint-configtypescript)
-- [React + TypeScript](#NoA-Ignite-dkeslint-configreact)
-- [Next.js](#NoA-Ignite-dkeslint-confignext)
+- [JavaScript](#noaignite-dkeslint-config-1)
+- [TypeScript](#noaignite-dkeslint-configtypescript)
+- [React + TypeScript](#noaignite-dkeslint-configreact)
+- [Next.js](#noaignite-dkeslint-confignext)
 
 ## Installation
 
