@@ -6,7 +6,7 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 12,
 	},
-	plugins: ['import'],
+	plugins: ['simple-import-sort', 'unused-imports'],
 	rules: {
 		'arrow-body-style': ['off'],
 		'consistent-return': ['off'],
@@ -39,7 +39,7 @@ module.exports = {
 				groups: [
 					['^((?!((.*).(scss|css))|assets|src|./|../|@[^lingui|^storybook|^sentry]|^tailwind.config.js))'],
 					['^(@[^lingui|^storybook|^sentry](.*))'],
-					['^(apps/|libs/)'],
+					['^(@apps/|@libs/)'],
 					['^(components/)'],
 					['^(config/)'],
 					['^(lib/)'],
