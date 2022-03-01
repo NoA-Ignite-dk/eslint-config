@@ -62,9 +62,7 @@ module.exports = {
 				asyncArrow: 'always',
 			},
 		],
-		'sort-keys': 'off',
 		'no-nested-ternary': 'warn',
-		'no-param-reassign': 'off',
 		'no-multiple-empty-lines': [1, { max: 1 }],
 		'padding-line-between-statements': [
 			1,
