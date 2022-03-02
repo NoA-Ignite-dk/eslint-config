@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0...v1.4.0) (2022-03-02)
+
+
+### Features
+
+* remove npm-check ([27f1627](https://github.com/NoA-Ignite-dk/eslint-config/commit/27f16272fd15f945be193307881afddbffd37f77))
+
+
+### Rules
+
+* **js:** added new fixable rules ([fa0601c](https://github.com/NoA-Ignite-dk/eslint-config/commit/fa0601c843c1c216ceff01ebd27863cf6d54757a))
+* **js:** max-len - Added ignore pattern for SVG d property ([291a7c7](https://github.com/NoA-Ignite-dk/eslint-config/commit/291a7c723d1f57915d8fee58bcdf62bcd3ad745b))
+* **next:** added simple sorting ([ba24b9a](https://github.com/NoA-Ignite-dk/eslint-config/commit/ba24b9a38972d6b1b5577b0cced2c80961ccd131))
+* **next:** deleted eslint-plugin-simple-import-sort ([a35cf95](https://github.com/NoA-Ignite-dk/eslint-config/commit/a35cf9551869f967f64d6d22e8c5f52d1731df5f))
+* **next:** disabled import-rules as we're using simple-import-sort insteead ([4753850](https://github.com/NoA-Ignite-dk/eslint-config/commit/475385036d6162d43484dbf5e1f5b0e9d37bc2b1))
+
+
+### Build System
+
+* add deps scope ([4e2671c](https://github.com/NoA-Ignite-dk/eslint-config/commit/4e2671c5abb5343b0e07be6e7f0ebc814b237732))
+* **deps:** add renovate.json ([0e0a2ac](https://github.com/NoA-Ignite-dk/eslint-config/commit/0e0a2ac666e55f67fd52af2c0f22b53ff99408bd))
+* **deps:** bump next from 12.0.10 to 12.1.0 ([55dd698](https://github.com/NoA-Ignite-dk/eslint-config/commit/55dd698ecc9c2220bd700198f93e92281bfe238d))
+* **deps:** pin dependencies ([5dde93a](https://github.com/NoA-Ignite-dk/eslint-config/commit/5dde93ac05c09bbad472524c0ec9491e9a513979))
+* update dependencies ([cf11cb2](https://github.com/NoA-Ignite-dk/eslint-config/commit/cf11cb2fac9d24ece4bd6838b275dc4ef3db4ddc))
+
+
+### Fixes
+
+* **deps:** update test deps ([d9c2762](https://github.com/NoA-Ignite-dk/eslint-config/commit/d9c276267671f322e88931b7cfdb477f255d5298))
+
 ## [1.3.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0-beta.2...v1.3.0) (2022-03-01)
 
 
