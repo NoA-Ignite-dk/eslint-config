@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "description": "ESLint config for JS projects",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --max-warnings=0",
     "version": "standard-version",
     "prepare-release": "run-s lint commitlint version",
     "commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
