@@ -63,7 +63,7 @@ module.exports = {
 			},
 		],
 		'no-nested-ternary': 'warn',
-		'no-multiple-empty-lines': [1, { max: 1 }],
+		'no-multiple-empty-lines': ['error', { max: 3 }],
 		'padding-line-between-statements': [
 			1,
 			{
