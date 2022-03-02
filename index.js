@@ -44,6 +44,8 @@ module.exports = {
 		'max-len': ['error', {
 			code: 140,
 			ignoreComments: true,
+			// SVG d properties
+			ignorePattern: 'd="([\\s\\S]*?)"',
 		}],
 		'no-console': ['warn'],
 		'no-multiple-empty-lines': ['warn', { max: 3 }],
