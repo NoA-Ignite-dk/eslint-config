@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.4.0...v1.4.1) (2022-03-02)
+
+
+### Build System
+
+* ensure linting fails on warnings ([c1ef6d0](https://github.com/NoA-Ignite-dk/eslint-config/commit/c1ef6d0df270c971a6bd14cd588c2dfb3a53d22e))
+
 ## [1.4.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.3.0...v1.4.0) (2022-03-02)
 
 
