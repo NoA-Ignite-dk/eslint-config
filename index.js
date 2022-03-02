@@ -46,6 +46,8 @@ module.exports = {
 			ignoreComments: true,
 		}],
 		'no-console': ['warn'],
+		'no-multiple-empty-lines': ['warn', { max: 3 }],
+		'no-nested-ternary': 'warn',
 		'no-restricted-syntax': ['error', {
 			message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
 			selector: 'ForInStatement',
@@ -61,5 +63,46 @@ module.exports = {
 		}],
 		'no-underscore-dangle': ['off'],
 		'no-unused-vars': ['warn'],
+		'padding-line-between-statements': [
+			'warn',
+			{
+				blankLine: 'always',
+				next: '*',
+				prev: ['block', 'block-like', 'cjs-export', 'class', 'export', 'function', 'break'],
+			},
+			{
+				blankLine: 'always',
+				next: ['return'],
+				prev: ['multiline-const', 'function', 'singleline-const'],
+			},
+			{
+				blankLine: 'always',
+				next: ['singleline-const'],
+				prev: ['multiline-const', 'function'],
+			},
+			{
+				blankLine: 'always',
+				next: ['multiline-const', 'function'],
+				prev: ['singleline-const'],
+			},
+			{
+				blankLine: 'never',
+				next: ['singleline-const'],
+				prev: ['singleline-const'],
+			},
+			{
+				blankLine: 'any',
+				next: ['export', 'import'],
+				prev: ['export', 'import'],
+			},
+		],
+		'space-before-function-paren': [
+			'error',
+			{
+				anonymous: 'never',
+				asyncArrow: 'always',
+				named: 'never',
+			},
+		],
 	},
 };
