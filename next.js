@@ -8,6 +8,8 @@ module.exports = {
 	],
 	plugins: ['simple-import-sort', 'unused-imports'],
 	rules: {
+		'import/no-extraneous-dependencies': 'off',
+		'import/order': 'off',
 		'simple-import-sort/imports': [
 			'warn',
 			{
