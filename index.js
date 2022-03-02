@@ -48,7 +48,9 @@ module.exports = {
 			ignorePattern: 'd="([\\s\\S]*?)"',
 		}],
 		'no-console': ['warn'],
-		'no-multiple-empty-lines': ['warn', { max: 3 }],
+		'no-multiple-empty-lines': ['warn', {
+			max: 3,
+		}],
 		'no-nested-ternary': 'warn',
 		'no-restricted-syntax': ['error', {
 			message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
@@ -65,8 +67,7 @@ module.exports = {
 		}],
 		'no-underscore-dangle': ['off'],
 		'no-unused-vars': ['warn'],
-		'padding-line-between-statements': [
-			'warn',
+		'padding-line-between-statements': ['warn',
 			{
 				blankLine: 'always',
 				next: '*',
@@ -98,8 +99,7 @@ module.exports = {
 				prev: ['export', 'import'],
 			},
 		],
-		'space-before-function-paren': [
-			'error',
+		'space-before-function-paren': ['error',
 			{
 				anonymous: 'never',
 				asyncArrow: 'always',

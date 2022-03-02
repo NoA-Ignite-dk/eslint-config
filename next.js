@@ -8,10 +8,9 @@ module.exports = {
 	],
 	plugins: ['unused-imports'],
 	rules: {
-		'import/no-extraneous-dependencies': 'off',
-		'unused-imports/no-unused-imports': 'error',
-		'unused-imports/no-unused-vars': [
-			'warn',
+		'import/no-extraneous-dependencies': ['off'],
+		'unused-imports/no-unused-imports': ['error'],
+		'unused-imports/no-unused-vars': ['warn',
 			{
 				args: 'after-used',
 				argsIgnorePattern: '^_',
