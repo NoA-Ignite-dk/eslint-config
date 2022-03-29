@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.4.1...v1.5.0) (2022-03-29)
+
+
+### Features
+
+* changelog.config.js added nx ([2ee3623](https://github.com/NoA-Ignite-dk/eslint-config/commit/2ee36231cf3f3acf0aa642f3aa8d212bfd4e671f))
+
+
+### Rules
+
+* **nx:** added nx setup ([f8d995a](https://github.com/NoA-Ignite-dk/eslint-config/commit/f8d995a24db1f9fb5b2c1df0f868bc54b56325f1))
+
+
+### Documentation
+
+* **nx:** document nx variant usage ([96b53da](https://github.com/NoA-Ignite-dk/eslint-config/commit/96b53daa3c9e12380f6ad4d272eb9dd0003ab72f))
+
 ### [1.4.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.4.0...v1.4.1) (2022-03-02)
 
 
