@@ -8,6 +8,7 @@ Provides extensible base eslint configuration. There are 4 variants;
 - [TypeScript](#noaignite-dkeslint-configtypescript)
 - [React + TypeScript](#noaignite-dkeslint-configreact)
 - [Next.js](#noaignite-dkeslint-confignext)
+- [NX](#noaignite-dkeslint-confignx)
 
 ## Installation
 
@@ -163,6 +164,58 @@ module.exports = {
 	parserOptions: {
 		project: require.resolve('./tsconfig.eslint.json'),
 	},
+};
+```
+
+### @noaignite-dk/eslint-config/nx
+
+Use this configuration if your project uses nx.
+
+#### Usage
+
+Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the following contents:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/.*.js",
+	],
+	"exclude": ["node_modules"]
+}
+```
+
+Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
+
+```js
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+	extends: ['@noaignite-dk/eslint-config/nx'],
+	parserOptions: {
+		project: require.resolve('./tsconfig.eslint.json'),
+	},
+	rules: {
+		"@nrwl/nx/enforce-module-boundaries": [
+			"error",
+			{
+				enforceBuildableLibDependency: true,
+				allow: ["libs", "apps"],
+				depConstraints: [
+					{
+						sourceTag: "*",
+						onlyDependOnLibsWithTags: ["*"]
+					}
+				]
+			}
+		]
+	}
 };
 ```
 
