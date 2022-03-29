@@ -16,24 +16,21 @@ module.exports = {
 			plugins: ['@typescript-eslint'],
 			rules: {
 				'@typescript-eslint/ban-ts-comment': ['error'],
+				'@typescript-eslint/ban-types': 'off',
 				'@typescript-eslint/explicit-function-return-type': ['off'],
-				'@typescript-eslint/indent': ['error', 'tab'],
+				'@typescript-eslint/indent': 'off',
 				'@typescript-eslint/lines-between-class-members': ['error', 'always', {
 					exceptAfterSingleLine: true,
 				}],
 				'@typescript-eslint/member-delimiter-style': ['error'],
 				'@typescript-eslint/no-explicit-any': ['warn'],
 				'@typescript-eslint/no-shadow': ['error'],
-				'@typescript-eslint/no-unused-vars': ['error', {
+				'@typescript-eslint/no-unused-vars': ['warn', {
 					args: 'after-used',
 					ignoreRestSiblings: true,
 					vars: 'all',
 				}],
-				'@typescript-eslint/no-use-before-define': ['error', {
-					classes: true,
-					functions: false,
-					variables: true,
-				}],
+				'@typescript-eslint/no-use-before-define': 'off',
 				'@typescript-eslint/object-curly-spacing': ['error', 'always'],
 				'@typescript-eslint/semi': ['error', 'always'],
 				indent: ['off'],
