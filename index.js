@@ -10,6 +10,8 @@ module.exports = {
 	rules: {
 		'arrow-body-style': ['off'],
 		'consistent-return': ['off'],
+		'function-paren-newline': 'off',
+		'implicit-arrow-linebreak': 'off',
 		'import/extensions': ['error', 'ignorePackages', {
 			js: 'never',
 			jsx: 'never',
@@ -48,6 +50,8 @@ module.exports = {
 			ignorePattern: 'd="([\\s\\S]*?)"',
 		}],
 		'no-console': ['warn'],
+		'no-empty-pattern': 'off',
+		'no-mixed-spaces-and-tabs': 'off',
 		'no-multiple-empty-lines': ['warn', {
 			max: 3,
 		}],
@@ -62,11 +66,11 @@ module.exports = {
 			message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
 			selector: 'WithStatement',
 		}],
-		'no-tabs': ['error', {
-			allowIndentationTabs: true,
-		}],
+		'no-tabs': 'off',
 		'no-underscore-dangle': ['off'],
 		'no-unused-vars': ['warn'],
+		'object-curly-newline': 'off',
+		'operator-linebreak': 'off',
 		'padding-line-between-statements': ['warn',
 			{
 				blankLine: 'always',
