@@ -18,6 +18,7 @@
   "author": "Joshua Nielsen <jdpnielsen@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@nrwl/eslint-plugin-nx": "^13.4.3",
     "@rushstack/eslint-patch": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
