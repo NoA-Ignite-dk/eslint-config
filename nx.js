@@ -3,8 +3,10 @@ require('./patch');
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: [
-		'plugin:@next/next/core-web-vitals',
-		'plugin:@nrwl/nx/typescript',
-		'./next.js',
+		'./typescript',
 	],
+	plugins: ['@nrwl/nx'],
+	rules: {
+		'@nrwl/nx/enforce-module-boundaries': ['error'],
+	},
 };
