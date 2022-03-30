@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.0...v1.5.1) (2022-03-30)
+
+
+### Build System
+
+* **deps:** bump ansi-regex from 3.0.0 to 3.0.1 ([7c2f939](https://github.com/NoA-Ignite-dk/eslint-config/commit/7c2f9394838baa6f7250a108320dbf5cdc3967cf))
+* **deps:** update dependency @commitlint/cli to v16.2.3 ([b8d2cf0](https://github.com/NoA-Ignite-dk/eslint-config/commit/b8d2cf055a417c3887267cf366cedec5dd3cfe28))
+* **deps:** update dependency eslint to v8.12.0 ([310a6cd](https://github.com/NoA-Ignite-dk/eslint-config/commit/310a6cd5544bf2428279d371450a127b42a49850))
+
+
+### Fixes
+
+* **nx:** added missing dependency ([44ccace](https://github.com/NoA-Ignite-dk/eslint-config/commit/44ccace7306d14314ea3190486e84b991444319e))
+
 ## [1.5.0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.4.1...v1.5.0) (2022-03-29)
 
 
