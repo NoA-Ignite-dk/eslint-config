@@ -36,6 +36,7 @@ module.exports = {
 				}],
 				'@typescript-eslint/object-curly-spacing': ['error', 'always'],
 				'@typescript-eslint/semi': ['error', 'always'],
+				'import/no-extraneous-dependencies': ['off'],
 				indent: ['off'],
 				'lines-between-class-members': ['off'],
 				'no-shadow': ['off'],
@@ -44,6 +45,15 @@ module.exports = {
 				'object-curly-spacing': ['off'],
 				quotes: ['off'],
 				semi: ['off'],
+				'unused-imports/no-unused-imports': ['error'],
+				'unused-imports/no-unused-vars': ['warn',
+					{
+						args: 'after-used',
+						argsIgnorePattern: '^_',
+						vars: 'all',
+						varsIgnorePattern: '^_',
+					},
+				],
 			},
 			settings: {
 				'import/parsers': {
@@ -60,4 +70,5 @@ module.exports = {
 			},
 		},
 	],
+	plugins: ['unused-imports'],
 };
