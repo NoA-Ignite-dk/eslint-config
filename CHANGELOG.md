@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.1...v1.5.2) (2022-03-30)
+
+
+### Fixes
+
+* **ts:** moved unused-imports rule to typescript ([2689b09](https://github.com/NoA-Ignite-dk/eslint-config/commit/2689b096c6faa729e4ee87d90958082ab04e1cd9)), closes [#26](https://github.com/NoA-Ignite-dk/eslint-config/issues/26)
+
 ### [1.5.1](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.0...v1.5.1) (2022-03-30)
 
 
