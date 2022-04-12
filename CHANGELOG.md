@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.5](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.4...v1.5.5) (2022-04-12)
+
+
+### Fixes
+
+* **nx:** updated dependencies ([4f37e96](https://github.com/NoA-Ignite-dk/eslint-config/commit/4f37e96f60e9fdd06ec50fc67154ee6d88f4f20e))
+
 ### [1.5.4](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.3...v1.5.4) (2022-04-12)
 
 
