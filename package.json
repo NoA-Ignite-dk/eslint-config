@@ -21,6 +21,7 @@
     "@nrwl/eslint-plugin-nx": "^13.4.3",
     "@nrwl/workspace": "^13.10.1",
     "@rushstack/eslint-patch": "^1.1.0",
+    "@swc/core-darwin-arm64": "^1.2.165",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-airbnb": "^19.0.4",
