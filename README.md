@@ -8,6 +8,7 @@ Provides extensible base eslint configuration. There are 4 variants;
 - [TypeScript](#noaignite-dkeslint-configtypescript)
 - [React + TypeScript](#noaignite-dkeslint-configreact)
 - [Next.js](#noaignite-dkeslint-confignext)
+- [Import](#noaignite-dkeslint-configimport)
 - [NX](#noaignite-dkeslint-confignx)
 
 ## Installation
@@ -164,6 +165,40 @@ module.exports = {
 	parserOptions: {
 		project: require.resolve('./tsconfig.eslint.json'),
 	},
+};
+```
+
+### @noaignite-dk/eslint-config/import
+
+Use this configuration to add sorting for your project.
+
+#### Usage
+
+Create an eslint specific tsconfig file (`tsconfig.eslint.json`) with the following contents:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/.*.js",
+	],
+	"exclude": ["node_modules"]
+}
+```
+
+Then, in your project's [.eslintrc.js](https://eslint.org/docs/user-guide/configuring), add the following:
+
+```js
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+	extends: ['@noaignite-dk/eslint-config/import'],
 };
 ```
 
