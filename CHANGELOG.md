@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.2-0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.5...v1.6.2-0) (2022-05-23)
+
+
+### Improvements
+
+* **import:** separated into own `extends` ([153f28e](https://github.com/NoA-Ignite-dk/eslint-config/commit/153f28e86ed88a72fe608e4dcdea1a1fbbc563b7))
+
+
+### Build System
+
+* release 1.6.1 ([7bdc117](https://github.com/NoA-Ignite-dk/eslint-config/commit/7bdc1174ddda3405b44d4c4338f093a4bcf6816e))
+
+
+### Fixes
+
+* removed NX ([701b3bb](https://github.com/NoA-Ignite-dk/eslint-config/commit/701b3bbfb77b6b3c7d7bf05730457117d6824fa9))
+
 ### [1.5.5](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.4...v1.5.5) (2022-04-12)
 
 
