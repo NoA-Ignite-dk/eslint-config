@@ -1,60 +1,60 @@
 {
-  "name": "@noaignite-dk/eslint-config",
-  "version": "1.6.1",
-  "description": "ESLint config for JS projects",
-  "scripts": {
-    "lint": "eslint . --max-warnings=0",
-    "version": "standard-version",
-    "prepare-release": "run-s lint commitlint version",
-    "commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
-    "prepare": "husky install",
-    "commit": "git-cz"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/NoA-Ignite-dk/eslint-config.git"
-  },
-  "main": "index.js",
-  "author": "Joshua Nielsen <jdpnielsen@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "@nrwl/workspace": "^13.10.1",
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-next": "^12.1.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-react": "^7.29.2",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "17.0.1",
-    "@commitlint/config-conventional": "17.0.0",
-    "commitizen": "4.2.4",
-    "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.12.0",
-    "git-cz": "4.8.0",
-    "husky": "7.0.4",
-    "npm-run-all": "4.1.5",
-    "standard-version": "9.3.2"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "config": {
-    "commitizen": {
-      "path": "git-cz"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -g commitlint.config.js -E HUSKY_GIT_PARAMS"
-    }
-  }
+	"name": "@noaignite-dk/eslint-config",
+	"version": "1.6.1",
+	"description": "ESLint config for JS projects",
+	"scripts": {
+		"lint": "eslint . --max-warnings=0",
+		"version": "standard-version",
+		"prepare-release": "run-s lint commitlint version",
+		"commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
+		"prepare": "husky install",
+		"commit": "git-cz"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/NoA-Ignite-dk/eslint-config.git"
+	},
+	"main": "index.js",
+	"author": "Joshua Nielsen <jdpnielsen@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"@nrwl/workspace": "^14.4.2",
+		"@rushstack/eslint-patch": "^1.1.0",
+		"@typescript-eslint/eslint-plugin": "^5.13.0",
+		"@typescript-eslint/parser": "^5.13.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-typescript": "^16.1.0",
+		"eslint-config-next": "^12.1.0",
+		"eslint-import-resolver-typescript": "^2.5.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-react": "^7.29.2",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"eslint-plugin-unused-imports": "^2.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "17.0.1",
+		"@commitlint/config-conventional": "17.0.0",
+		"commitizen": "4.2.4",
+		"cz-conventional-changelog": "3.3.0",
+		"eslint": "8.12.0",
+		"git-cz": "4.8.0",
+		"husky": "7.0.4",
+		"npm-run-all": "4.1.5",
+		"standard-version": "9.3.2"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"config": {
+		"commitizen": {
+			"path": "git-cz"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -g commitlint.config.js -E HUSKY_GIT_PARAMS"
+		}
+	}
 }
