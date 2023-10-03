@@ -3,6 +3,7 @@ module.exports = {
 	root: true,
 	extends: [
 		'../../next.js',
+		'../../import.js',
 	],
 	settings: {
 		next: {
