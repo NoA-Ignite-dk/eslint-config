@@ -43,9 +43,6 @@
     "standard-version": "9.5.0",
     "typescript": "5.2.2"
   },
-  "overrides": {
-    "@typescript-eslint": "$@typescript-eslint"
-  },
   "engines": {
     "node": "^18.16"
   },
