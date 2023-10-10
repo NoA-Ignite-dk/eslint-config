@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.3-0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.5...v1.6.3-0) (2023-10-10)
+
+
+### Improvements
+
+* **import:** separated into own `extends` ([153f28e](https://github.com/NoA-Ignite-dk/eslint-config/commit/153f28e86ed88a72fe608e4dcdea1a1fbbc563b7))
+* use pnpm as packageManager ([326dce9](https://github.com/NoA-Ignite-dk/eslint-config/commit/326dce9885381cd4c32dd3ad2e48fbfcecfb4e25))
+
+
+### Tests
+
+* **next:** use import definition ([3952ada](https://github.com/NoA-Ignite-dk/eslint-config/commit/3952ada43293915c8a3d29471dafccfd9138ba96))
+
+
+### Build System
+
+* configure .nvmrc ([e2d445b](https://github.com/NoA-Ignite-dk/eslint-config/commit/e2d445b63c87333c660677eee0d54036b1c2cb6a))
+* configure github action ([4c3840a](https://github.com/NoA-Ignite-dk/eslint-config/commit/4c3840a9e3896b1ec22342ae09c75f2ba0772719))
+* configure pnpm workspaces ([049dd16](https://github.com/NoA-Ignite-dk/eslint-config/commit/049dd16cd5e0f556362cfee87a11294f1f4c1f89))
+* **deps:** bump ejs from 3.1.6 to 3.1.7 ([3ae0b2d](https://github.com/NoA-Ignite-dk/eslint-config/commit/3ae0b2d3e1be6f1d19ab353ad9c1ad5e987af9d6))
+* **deps:** remove unused dependency ([5d50a3e](https://github.com/NoA-Ignite-dk/eslint-config/commit/5d50a3e6b74221d7311c805a2c5e9c4a6e26ce8b))
+* **deps:** update commitlint monorepo ([d3c5c89](https://github.com/NoA-Ignite-dk/eslint-config/commit/d3c5c896a1d5cb55ade73859f9fc99b388986ef3))
+* **deps:** update commitlint monorepo ([ca2ed66](https://github.com/NoA-Ignite-dk/eslint-config/commit/ca2ed660d55ef3d9307c6a5e64e4467de2dbcb62))
+* **deps:** update commitlint monorepo to v17 ([a1009c8](https://github.com/NoA-Ignite-dk/eslint-config/commit/a1009c89a1c9981ede09740f71a17673cb16f9ff))
+* **deps:** update dependency commitizen to v4.2.5 ([21f46d7](https://github.com/NoA-Ignite-dk/eslint-config/commit/21f46d785a0abc2b4a9c32969ba88db4cb109633))
+* **deps:** update dependency eslint to v8.24.0 ([daf18d7](https://github.com/NoA-Ignite-dk/eslint-config/commit/daf18d718f2e01cc2409ef9b0017ed6a8569ea2e))
+* **deps:** update dependency git-cz to v4.9.0 ([645e01f](https://github.com/NoA-Ignite-dk/eslint-config/commit/645e01f8d1090f1d469b3880d973a4c2792a720f))
+* **deps:** update dependency husky to v8 ([3c96f0d](https://github.com/NoA-Ignite-dk/eslint-config/commit/3c96f0d51f3760c683a422771ade0771338ea226))
+* **deps:** update dependency minimist to 1.2.6 [security] ([666adc6](https://github.com/NoA-Ignite-dk/eslint-config/commit/666adc6acba03a83ad3153f6cefd4903e182ef66))
+* **deps:** update package dependencies ([c1c2d59](https://github.com/NoA-Ignite-dk/eslint-config/commit/c1c2d59a12f98a89dba5c8822d6f1790c50af06f))
+* release 1.6.1 ([7bdc117](https://github.com/NoA-Ignite-dk/eslint-config/commit/7bdc1174ddda3405b44d4c4338f093a4bcf6816e))
+
+
+### Fixes
+
+* **deps:** remove overrides section ([435e8a1](https://github.com/NoA-Ignite-dk/eslint-config/commit/435e8a151aafde9ee07bcdfe52588de4ffaf3b1e))
+* **deps:** update dependency @nrwl/workspace to v14 ([a86e8a2](https://github.com/NoA-Ignite-dk/eslint-config/commit/a86e8a2a09563e6bdd6ef3b47bd03f227839c7f1))
+* **deps:** update dependency eslint-import-resolver-typescript to v3 ([90662e4](https://github.com/NoA-Ignite-dk/eslint-config/commit/90662e48d9d02f637d95328a87cd159e36ae3f13))
+* removed NX ([bde1610](https://github.com/NoA-Ignite-dk/eslint-config/commit/bde161002c97951055ebc901fd02776dcba0adb6))
+
+
+### Documentation
+
+* improve jsdoc typing ([4c83c4f](https://github.com/NoA-Ignite-dk/eslint-config/commit/4c83c4f7ba54579a8ccfa6eb2e1a60558cf24820))
+* update readme with dev & release instructions ([1802d78](https://github.com/NoA-Ignite-dk/eslint-config/commit/1802d789aedc295d7920caec741cb215f9df998e))
+
 ### [1.5.5](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.4...v1.5.5) (2022-04-12)
 
 
