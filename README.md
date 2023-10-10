@@ -240,4 +240,8 @@ module.exports = {
 
 ## Development
 
-Install all necessary development dependencies by running `npm install --dev`
+Install all necessary development dependencies by running `pnpm install`
+
+## Release
+
+To release a new version, run `pnpm release` and follow the instructions.
