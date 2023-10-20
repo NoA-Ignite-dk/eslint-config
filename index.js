@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 require('./patch');
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	extends: ['airbnb-base'],
 	parserOptions: {

@@ -1,6 +1,6 @@
 const { types, scopes } = require('./changelog.config');
 
-/** @type import("@commitlint/types").UserConfig */
+/** @type {import("@commitlint/types").UserConfig} */
 module.exports = {
 	extends: ['@commitlint/config-conventional'],
 	ignores: [
