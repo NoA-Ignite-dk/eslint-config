@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.3](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.6.3-0...v1.6.3) (2024-03-18)
+
+
+### Fixes
+
+* remove engine requirements ([b3d6360](https://github.com/NoA-Ignite-dk/eslint-config/commit/b3d63601b46d3edc0f8a900e7f0c96984529c036))
+
 ### [1.6.3-0](https://github.com/NoA-Ignite-dk/eslint-config/compare/v1.5.5...v1.6.3-0) (2023-10-10)
 
 

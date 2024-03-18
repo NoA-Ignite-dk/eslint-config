@@ -1,6 +1,6 @@
 {
   "name": "@noaignite-dk/eslint-config",
-  "version": "1.6.3-0",
+  "version": "1.6.3",
   "description": "ESLint config for JS projects",
   "scripts": {
     "lint": "eslint . --max-warnings=0",
