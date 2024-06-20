@@ -1,3 +1,7 @@
+# THIS IS NOW ARCHIVED - DO NOT USE IN NEW PROJECTS
+See https://www.npmjs.com/package/@jdpnielsen/eslint-flat-config
+
+
 # @noaignite-dk/eslint-config
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
